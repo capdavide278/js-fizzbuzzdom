@@ -7,3 +7,27 @@ h1{
     font-size: 100px;
     text-align: center;
 }
+
+.container{
+    display: flex;
+}
+
+.sezione{
+    width: 50px;
+}
+
+.fizzbuzz{
+    background-color: #f0466f;
+}
+
+.fizz{
+    background-color: #0bd6a1;
+}
+
+.buzz{
+    background-color: #ffd166;
+}
+
+.normal{
+    background-color: #1389b2;
+}
