@@ -14,19 +14,19 @@ for (let i = 1; i <= 100; i++){
     let element;
      if((i % 3 == 0) && (i % 5 == 0)){
         console.log("FizzBuzz");
-        element = `<div class ="container fizzbuzz sezione ${i}">${"FizzBuzz"}</div>;`
+        element = `<div class ="fizzbuzz sezione ${i}">${"FizzBuzz"}</div>`;
         
     } else if (i % 3 == 0){
         console.log("Fizz");
-        element = `<div class ="container fizz sezione ${i}">${"Fizz"}</div>;`
+        element = `<div class ="fizz sezione ${i}">${"Fizz"}</div>`;
 
     } else if (i % 5 == 0){
         console.log("Buzz");
-        element = `<div class ="container buzz sezione ${i}">${"Buzz"}</div>;`
+        element = `<div class ="buzz sezione ${i}">${"Buzz"}</div>`;
 
     } else {
         console.log(i)
-        element = `<div class ="container normal sezione ${i}">${i}</div>;`
+        element = `<div class ="normal sezione ${i}">${i}</div>`;
     }
     quadratini.innerHTML += element;
 }
